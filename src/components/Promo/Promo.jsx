@@ -9,9 +9,9 @@ export const Promo = () => {
                     <div className='promo__inner-content'>
                         <h1>Hi, I`m Sanzhar</h1>
                         <h2 className='text-animation'>I`m a <span></span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quae atque excepturi. 
-                            Ratione iusto repellendus earum asperiores vel esse a aliquid illo officiis, laborum eos totam corporis consequatur 
-                            provident ipsam.</p>
+                        <p>I am soon finishing my 4th year of study and I really want to find a job in my field, because I like it. 
+                            Among my qualities I can mention Logical thinking, Patience and perseverance, Self-organization and time management, 
+                            Responsibility, Striving for self-development.</p>
                         <nav>
                             <ul>
                                 <li>
@@ -63,7 +63,7 @@ export const Promo = () => {
                     </div>
                     <div className='promo__inner-photo'>
                         <div className='promo__inner-photo-inner'>
-                            <img src="./src/img/promo-img.jpeg" alt="promo-img"/>
+                            <img src="https://i.postimg.cc/XYWSdLsT/photo-2023-08-28-01-21-21.jpg" alt="promo-img"/>
                             <div className='animation'></div>
                         </div>
                     </div>
