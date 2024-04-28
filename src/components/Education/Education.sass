@@ -1,0 +1,63 @@
+.education
+    margin: 250px
+    .education__inner
+        h2
+            margin-bottom: 150px
+            text-align: center
+        .timeline__items
+            margin: auto
+            display: flex
+            flex-wrap: wrap
+            position: relative
+            .timeline-item
+                margin-bottom: 40px
+                width: 100%
+                position: relative
+                .timeline-dot
+                    height: 21px
+                    width: 21px
+                    background-color: rgb(45, 255, 191)
+                    box-shadow: 0 0 25px rgb(45, 255, 191), 0 0 50px rgb(45, 255, 191)
+                    position: absolute
+                    left: calc( 50% - 8px )
+                    border-radius: 50%
+                    top: 10px
+                .timeline-date
+                    font-size: 20px
+                    font-weight: 800
+                    color: white
+                    margin: 6px 0 15px
+                .timeline-content
+                    background-color: black
+                    border: 3px solid rgb(45, 255, 191)
+                    padding: 30px 50px
+                    border-radius: 4rem
+                    box-shadow: 0 0 10px rgb(45, 255, 191)
+                    cursor: pointer
+                    transition: 0.3s ease-in-out
+                    h3
+                        font-size: 20px
+                        color: white
+                        margin: 0 0 10px
+                        font-weight: 500
+                    p
+                        font-size: 16px
+                        font-weight: 300
+                        line-height: 22px
+            .timeline-content:hover
+                transform: scale(1.05)
+                box-shadow: 0 0 25px rgb(45, 255, 191)
+            .timeline-item:last-child
+                margin-bottom: 0
+            .timeline-item:nth-child(odd)
+                padding-right: calc( 50% + 30px )
+                text-align: right
+            .timeline-item:nth-child(even)
+                padding-left: calc( 50% + 30px )
+        .timeline__items::before
+            content: ''
+            position: absolute
+            width: 5px
+            height: 100%
+            background-color: rgb(45, 255, 191)
+            left: calc( 50% -  1px)

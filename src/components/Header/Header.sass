@@ -1,0 +1,48 @@
+.header
+    margin-top: 40px
+    .header__inner 
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        .header__inner-logo
+            position: relative
+            h3
+                transition: 0.5s
+            h3:hover
+                transition: 0.5s
+                transform: scale(1.2)
+            span
+                position: relative
+                color: rgb(88, 101, 236)
+        .header__inner-nav
+            ul
+                display: flex
+                gap: 40px
+                #default
+                    color: rgb(88, 101, 236)
+                #default::after 
+                    content: ''
+                    position: absolute
+                    bottom: -5px
+                    left: 0
+                    border-bottom: 2px solid transparent
+                    border-radius: 1px
+                    width: 100%
+                    transition: border-color 0.3s linear
+                    background-color: rgb(88, 101, 236)
+                a
+                    position: relative
+                    transition: color 0.3s linear, border-color 0.5s linear
+                a:hover 
+                    color: rgb(88, 101, 236)
+                a::after 
+                    content: ''
+                    position: absolute
+                    bottom: -5px
+                    left: 0
+                    border-bottom: 2px solid transparent
+                    border-radius: 1px
+                    width: 100%
+                    transition: border-color 0.3s linear
+                a:hover::after
+                    border-color: rgb(88, 101, 236)
